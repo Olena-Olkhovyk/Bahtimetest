@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/Inter/Inter-VariableFont_opsz_wght.ttf') format('truetype'),
+       url('/Inter/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+/* button {
+  font-family: inherit;
+} */
