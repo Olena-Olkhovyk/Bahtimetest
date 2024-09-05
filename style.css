@@ -11,3 +11,8 @@ body {
 /* button {
   font-family: inherit;
 } */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
