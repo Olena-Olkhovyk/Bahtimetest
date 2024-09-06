@@ -1,12 +1,13 @@
 @font-face {
-  font-family: "Inter";
-  src: url("/Inter/Inter-VariableFont_opsz_wght.ttf") format("truetype"),
-    url("/Inter/Inter-Italic-VariableFont_opsz_wght.ttf") format("truetype");
+  font-family:"Pt_Serif";
+  src:
+      url("/font/HelveticaNeue.ttc") format("truetype"),
+      url("/font/PT_Serif/PTSerif-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "PT_Serif", sans-serif;
 }
 /* button {
   font-family: inherit;
