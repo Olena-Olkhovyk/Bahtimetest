@@ -1,5 +1,5 @@
 @font-face {
-  font-family:"Pt_Serif";
+  font-family:"PT_Serif";
   src:
       url("/font/HelveticaNeue.ttc") format("truetype"),
       url("/font/PT_Serif/PTSerif-Regular.ttf") format("truetype");
@@ -7,7 +7,7 @@
   font-style: normal;
 }
 body {
-  font-family: "PT_Serif", sans-serif;
+  font-family: "PT_Serif", serif;
 }
 /* button {
   font-family: inherit;
@@ -66,4 +66,7 @@ body {
 .gallery-inner {
   display: flex;
   flex-direction: column;
+}
+.gallery__img-title {
+  font-family: "PT_Serif";
 }
