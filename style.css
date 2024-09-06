@@ -1,12 +1,13 @@
 @font-face {
   font-family: 'Inter';
-  src: url('/Inter/Inter-VariableFont_opsz_wght.ttf') format('truetype'),
-       url('/Inter/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+  src: url('/font/PT_Serif/PTSerif-Regular.ttf') format('truetype'),
+       url('/font/PT_Serif/PTSerif-Bold.ttf') format('truetype'),
+       url('/font/HelveticaNeue.ttc');
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'HelveticaNeue', sans-serif;
 }
 /* button {
   font-family: inherit;
@@ -31,4 +32,9 @@ body {
 .gallery-inner {
   display: flex;
   flex-direction: column;
+}
+
+.gallery__img-title {
+  font-family: 'PT_Serif';
+  font-weight: 400;
 }
