@@ -138,3 +138,6 @@ a:hover {
 .news {
   padding-bottom: 40px;
 }
+.footer__link {
+  text-decoration: underline;
+}
