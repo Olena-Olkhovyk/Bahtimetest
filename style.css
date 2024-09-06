@@ -1,25 +1,44 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('/Inter/Inter-VariableFont_opsz_wght.ttf') format('truetype'),
-       url('/Inter/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+  font-family: "Inter";
+  src: url("/Inter/Inter-VariableFont_opsz_wght.ttf") format("truetype"),
+    url("/Inter/Inter-Italic-VariableFont_opsz_wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 /* button {
   font-family: inherit;
 } */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-.wrapper{
+.wrapper {
   max-width: 70%;
   margin: auto;
+}
+
+.magazine-filter {
+  margin: 12px 0;
+}
+
+.btn-filter {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-filter:hover {
+  background-color: white;
+  color: black;
 }
 
 .gallery {
