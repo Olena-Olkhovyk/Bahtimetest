@@ -17,11 +17,26 @@ body {
 *::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 .wrapper {
   max-width: 70%;
   margin: auto;
+}
+
+.main-text__paragraph {
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.main-text__link {
+  text-decoration: none;
+  color: rgb(65, 64, 64);
+}
+
+.main-text__link:hover {
+  color: black;
 }
 
 .magazine-filter {
