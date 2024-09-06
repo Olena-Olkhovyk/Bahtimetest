@@ -1,13 +1,12 @@
 @font-face {
   font-family:"PT_Serif";
   src:
-      url("/font/HelveticaNeue.ttc") format("truetype"),
       url("/font/PT_Serif/PTSerif-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: "PT_Serif", serif;
+  font-family: "PT_Serif", Helvetica, sans-serif;
 }
 /* button {
   font-family: inherit;
@@ -19,6 +18,11 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   margin: 0;
+}
+
+.custom-hr {
+  background-color: black;
+  height: 2px;
 }
 
 .wrapper {
@@ -57,16 +61,32 @@ body {
   color: black;
 }
 
+/* gallery */
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
   gap: 10px;
-  padding-top: 10px;
+  padding-top: 11px;
+  padding-bottom: 30px;
 }
 .gallery-inner {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
+
+.gallery__img-wrapper {
+  max-width: 100%;
+}
+
 .gallery__img-title {
   font-family: "PT_Serif";
+}
+.gallery__img-title-filter {
+  font-family: Helvetica, sans-serif;
+  font-size:smaller;
+  font-weight:300;
+  color: #8A8A8A;
+  padding-bottom: 20px;
 }
