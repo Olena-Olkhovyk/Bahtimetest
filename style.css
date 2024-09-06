@@ -32,6 +32,7 @@ body {
 .main-text__paragraph {
   font-size: 30px;
   line-height: 39px;
+  font-family: "PT_Serif";
 }
 
 .main-text__link {
@@ -68,7 +69,7 @@ body {
   justify-content: space-evenly;
   gap: 10px;
   padding-top: 11px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .gallery-inner {
   display: flex;
@@ -89,4 +90,51 @@ body {
   font-weight:300;
   color: #8A8A8A;
   padding-bottom: 20px;
+}
+
+/* description-text */
+.description-text__paragraph, .description-text__contact {
+  font-family: "PT_Serif";
+  font-size: 30px;
+  line-height: 39px;
+  padding-top: 20px;
+}
+/* .description-text__contact-link {
+  text-decoration: none;
+  color: rgb(65, 64, 64);
+} */
+
+/* footer */
+.footer {
+padding-bottom: 40px;
+}
+
+.footer__services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 70px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 40px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(65, 64, 64);
+}
+
+.footer__news {
+  padding-top: 40px;
+}
+
+.news {
+  padding-bottom: 40px;
 }
