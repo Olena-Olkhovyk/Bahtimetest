@@ -2,7 +2,7 @@
 @font-face {
   font-family:"PT_Serif";
   src:
-      url("/font/PT_Serif/PTSerif-Regular.ttf") format("truetype");
+      url("/font/PT_Serif/Pt-serif/pt-serif_regular.woff") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,9 +11,6 @@
 body {
   font-family: "PT_Serif", Helvetica, sans-serif;
 }
-/* button {
-  font-family: inherit;
-} */
 
 *,
 *::before,
@@ -106,7 +103,7 @@ body {
 
 /* footer */
 .footer {
-padding-bottom: 40px;
+padding-bottom: 30px;
 }
 
 .footer__services {
@@ -136,7 +133,7 @@ a:hover {
 }
 
 .news {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .footer__link {
   text-decoration: underline;
