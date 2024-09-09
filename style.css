@@ -79,6 +79,12 @@ body {
   max-width: 100%;
 }
 
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .gallery__img-title {
   font-family: "PT_Serif";
 }
