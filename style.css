@@ -1,15 +1,15 @@
 /* font */
 @font-face {
-  font-family:"PT_Serif";
+  font-family:"PTSerif";
   src:
-      url("/font/PT_Serif/Pt-serif/pt-serif_regular.woff") format("truetype");
+      url("/font/PTSerif/PTSerifRegular/PTSerifRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 /* global */
 body {
-  font-family: "PT_Serif", Helvetica, sans-serif;
+  font-family: "PTSerif", Helvetica, sans-serif;
 }
 
 *,
@@ -29,7 +29,7 @@ body {
 .main-text__paragraph {
   font-size: 30px;
   line-height: 39px;
-  font-family: "PT_Serif";
+  font-family: "PTSerif";
 }
 
 .main-text__link {
@@ -52,6 +52,7 @@ body {
   font-size: 30px;
   cursor: pointer;
   border-radius: 5px;
+  font-family: Helvetica;
 }
 
 .btn-filter:hover {
