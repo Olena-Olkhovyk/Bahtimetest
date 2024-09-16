@@ -65,6 +65,9 @@ body {
 
 .magazine-filter {
   margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /* button */
@@ -75,6 +78,18 @@ body {
   cursor: pointer;
   border-radius: 5px;
   font-family: Helvetica;
+}
+
+@media screen and (max-width: 1400px) {
+  .btn-filter {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .btn-filter {
+    font-size: 20px;
+  }
 }
 
 .btn-filter:hover {
