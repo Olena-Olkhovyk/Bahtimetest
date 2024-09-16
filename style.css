@@ -24,11 +24,35 @@ body {
   margin: auto;
 }
 
+@media screen and (max-width: 1035px) {
+  .wrapper {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}
+
 /* main text */
 .main-text__paragraph {
   font-size: 30px;
-  line-height: 39px;
+  /* line-height: 39px; */
   font-family: "PTSerif";
+}
+
+@media screen and (max-width: 1400px) {
+  .main-text__paragraph {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .main-text__paragraph {
+    font-size: 20px;
+  }
 }
 
 .main-text__link {
