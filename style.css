@@ -156,20 +156,6 @@ body {
   padding-bottom: 30px;
 }
 
-.footer__services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  padding-top: 70px;
-  column-gap: 58px;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  padding-top: 20px;
-  line-height: 20px;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -177,16 +163,4 @@ a {
 
 a:hover {
   color: rgb(65, 64, 64);
-}
-
-.footer__news {
-  padding-top: 40px;
-}
-
-.news {
-  padding-bottom: 20px;
-}
-.footer__link {
-  text-decoration: underline;
-  font-size: 14px;
 }
