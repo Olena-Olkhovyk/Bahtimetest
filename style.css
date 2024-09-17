@@ -154,6 +154,12 @@ body {
 /* footer */
 .footer {
   padding-bottom: 30px;
+  margin: 30px 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
