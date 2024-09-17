@@ -166,8 +166,9 @@ body {
 
 .footer__services {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding-top: 70px;
+  column-gap: 58px;
 }
 
 ul {
@@ -195,4 +196,5 @@ a:hover {
 }
 .footer__link {
   text-decoration: underline;
+  font-size: 14px;
 }
