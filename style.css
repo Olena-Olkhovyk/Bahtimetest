@@ -54,6 +54,10 @@ body {
   }
 }
 
+.main-text_additional-info {
+  display: none;
+}
+
 .main-text__link {
   text-decoration: none;
   color: rgb(65, 64, 64);
