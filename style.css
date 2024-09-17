@@ -160,6 +160,13 @@ body {
 .footer__inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social__links {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
 }
 
 a {
@@ -169,4 +176,12 @@ a {
 
 a:hover {
   color: rgb(65, 64, 64);
+}
+
+@media screen and (max-width: 624px) {
+  .owners {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+  }
 }
