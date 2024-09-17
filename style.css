@@ -96,7 +96,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 5px;
   padding-top: 4px;
-  padding-bottom: 20px;
+  padding-bottom: 36px;
 }
 
 .gallery-inner {
@@ -122,7 +122,6 @@ body {
   font-size: smaller;
   font-weight: 300;
   color: #8a8a8a;
-  padding-bottom: 20px;
 }
 
 /* description-text */
@@ -130,7 +129,10 @@ body {
 .description-text__contact {
   font-family: "PT_Serif";
   font-size: 30px;
-  padding-top: 20px;
+}
+
+.description-text__paragraph {
+  padding-top: 14px;
 }
 
 @media screen and (max-width: 1400px) {
