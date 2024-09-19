@@ -100,10 +100,28 @@ ul {
 /* gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 5px;
   padding-top: 4px;
   padding-bottom: 36px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
 
 .gallery__item {
@@ -116,6 +134,7 @@ ul {
   width: 100%;
   height: auto;
   display: block;
+  aspect-ratio: 4/5;
 }
 
 .gallery__img-title {
