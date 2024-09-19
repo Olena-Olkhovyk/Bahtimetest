@@ -19,6 +19,11 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .wrapper {
   padding: 9px 11px;
 }
@@ -162,7 +167,7 @@ body {
   flex-wrap: wrap;
 }
 
-.social__links {
+.social__links ul {
   display: flex;
   gap: 10px;
   cursor: pointer;
