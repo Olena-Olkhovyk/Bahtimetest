@@ -105,10 +105,6 @@ body {
   gap: 5px;
 }
 
-.gallery__img-wrapper {
-  max-width: 100%;
-}
-
 .image {
   width: 100%;
   height: auto;
