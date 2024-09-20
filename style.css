@@ -24,9 +24,10 @@ ul {
   padding: 0;
 }
 
-.wrapper {
+body {
   max-width: 1254px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 /* main text */
