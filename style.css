@@ -25,7 +25,8 @@ ul {
 }
 
 .wrapper {
-  padding: 9px 11px;
+  max-width: 1254px;
+  margin: 0 auto;
 }
 
 /* main text */
