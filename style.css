@@ -148,6 +148,12 @@ ul {
   color: #8a8a8a;
 }
 
+.gallery__title-filter {
+  color: var(--Grey, #8a8a8a);
+  font-family: Helvetica;
+  font-size: 10px;
+}
+
 /* description-text */
 .description-text__paragraph,
 .description-text__contact {
